@@ -68,7 +68,7 @@ $ composer require omegacms/framework
 You can add it your project's `composer.json` file:
 
     "require": {
-        "omega/framework": "^1.0.0"
+        "omegacms/framework": "^1.0.0"
     }
 
 
@@ -77,7 +77,7 @@ You can add it your project's `composer.json` file:
 Support
 -------
 
-The best way to directly interact with Pop PHP is here on GitHub. You can:
+The best way to directly interact with Omega CMS is here on GitHub. You can:
 
 - Contribute code
 - Request a feature
@@ -85,13 +85,5 @@ The best way to directly interact with Pop PHP is here on GitHub. You can:
 
 but please do so under the pertinent repository related to the topic at hand. 
 
-Besides interacting with the various repositories here on GitHub, there are
-a few other ways to participate in the Pop PHP community:
-
-- [Slack](https://popphp.slack.com)
-- [Discord](https://discord.gg/TZjgT74U7E)
-- [X](https://x.com/popphpframework)
-
-
-[Top](#pop-php-framework)
+[Top](#omega-cms-framework)
 
