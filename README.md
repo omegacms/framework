@@ -1,5 +1,5 @@
-OmegaCMS Framework
-=================
+Omega CMS Framework
+===================
 
 * [Overview](#overview)
 * [New Features](#new-features)
@@ -28,13 +28,10 @@ All the components listed below will be installed:
 
 New Features
 ------------
-* A large number of improvements, upgrades and refactors across many components.
+* A large number of improvements, upgrades, fix and refactors across many components.
 * Support for PHP 8.1+.
-* Support for PHP <=7.4 has been deprecated.
-* PHPUnit tests refactored for PHPUnit 10.0+.
-* Reference the [CHANGELOG.md](https://github.com/popphp/popphp-framework/blob/master/CHANGELOG.md) for further details.
 
-[Top](#pop-php-framework)
+[Top](#omega-cms-framework)
 
 Install
 -------
@@ -43,20 +40,18 @@ There are multiple ways you can get Pop PHP Framework into your project.
 ##### Option 1: Create a New Project
 
 You can create a new project with the `composer create-project` command, which is recommended.
-This way, you will have access to the CLI-helper script `kettle` in the main project folder:
 
 ```console
-$ composer create-project popphp/popphp-framework project-folder
+$ composer create-project omegacms/framework project-folder
 ```
 
 ##### Option 2: Clone the Repo
 
-You can clone this repository directly, which will also install the `kettle` script
-in the main project folder:
+You can clone this repository directly.
 
 ```console
-$ git clone https://github.com/popphp/popphp-framework.git popphp
-$ cd popphp
+$ git clone https://github.com/omegacms/framework.git project-folder
+$ cd project-folder
 $ composer install
 ```
 
@@ -65,7 +60,7 @@ $ composer install
 You can add it to an existing project with the `composer require` command:
 
 ```console
-$ composer require popphp/popphp-framework
+$ composer require omegacms/framework
 ```
 
 ##### Option 4: Use `composer.json`
@@ -73,51 +68,11 @@ $ composer require popphp/popphp-framework
 You can add it your project's `composer.json` file:
 
     "require": {
-        "popphp/popphp-framework": "^5.3.0"
+        "omega/framework": "^1.0.0"
     }
 
 
-[Top](#pop-php-framework)
-
-Kettle
-------
-
-### CLI Helper
-
-`pop-kettle`
-
-If choose to install the framework in a way that the `pop-kettle` CLI-helper script is not available
-in the main project folder (options 3 and 4), you can place a copy of the script from the
-`vendor/popphp/pop-kettle/kettle` location in the main project folder (adjacent to the `vendor` folder):
-
-```bash
-$ cp vendor/popphp/pop-kettle/kettle .
-$ cp vendor/popphp/pop-kettle/kettle.inc.php .
-```
-Once you've copied the scripts over, you have to change the reference to the script's
-config file from:
-
-```php
-    $app = new Pop\Application(
-        $autoloader, include __DIR__ . '/config/app.console.php'
-    );
-```
-
-to
-
-```php
-    $app = new Pop\Application(
-        $autoloader, include __DIR__ . '/vendor/popphp/pop-kettle/config/app.console.php'
-    );
-```
-
-and make sure the newly copied `kettle` script is set to execute (755)
-
-```bash
-$ chmod 755 kettle
-```
-
-[Top](#pop-php-framework)
+[Top](#omega-cms-framework)
 
 Support
 -------
