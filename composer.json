@@ -1,7 +1,7 @@
 {
   "name": "omegacms/framework",
   "type": "project",
-  "description": "The example application for the Omega framework.",
+  "description": "This package install all omega framework dependancy.",
   "homepage": "https://omegacms.github.io",
   "license": "GPL-3.0",
   "authors": [
@@ -32,7 +32,6 @@
     "omegacms/http": "^1.0.0",
     "omegacms/logging": "^1.0.0",
     "omegacms/queue": "^1.0.0",
-    "omegacms/renderer": "^1.0.0",
     "omegacms/routing": "^1.0.0",
     "omegacms/serializable-closure": "~1.0.0",
     "omegacms/session": "^1.0.0",
