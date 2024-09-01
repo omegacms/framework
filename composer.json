@@ -17,8 +17,6 @@
   ],
   "require": {
     "php": ">=8.2",
-    "composer/composer": "2.*",
-    "league/flysystem": "^3.12",
     "omegacms/application": "^1.0.0",
     "omegacms/cache": "^1.0.0",
     "omegacms/config": "^1.0.0",
@@ -38,9 +36,6 @@
     "omegacms/support": "^1.0.0",
     "omegacms/testing": "^1.0.0",
     "omegacms/validation": "^1.0.0",
-    "omegacms/view": "^1.0.0",
-    "symfony/console": "^5.1",
-    "vlucas/phpdotenv": "^5.2",
-    "phpoption/phpoption": "^1.9"
+    "omegacms/view": "^1.0.0"
   }
 }
